@@ -1,5 +1,4 @@
 import React from 'react';
-import profilePic from './image.jpg';
 import './home.css';
 import githubLogo from '../about/githubLogo.png';
 import linkedinLogo from '../about/linkedInLogo.png';

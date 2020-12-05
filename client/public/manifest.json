@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Personal Portfolio",
+  "name": "Nasr Shamalkh Personal Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,13 +8,13 @@
       "type": "image/x-icon"
     },
     {
-      "src": "NSlogo.jpg",
-      "type": "image/png",
+      "src": "./NSlogo.jpg",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
-      "src": "NSlogo.jpg",
-      "type": "image/png",
+      "src": "./NSlogo.jpg",
+      "type": "image/jpg",
       "sizes": "512x512"
     }
   ],

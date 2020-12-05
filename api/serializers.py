@@ -6,14 +6,14 @@ class ProjectSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = ProjectModel
-        fields = ['name', 'description', 'imageID', 'link', 'codeLink', 'demoLink', 'role']
+        fields = ['name', 'description', 'imageID', 'link', 'codeLink', 'demoLink', 'role', 'showProject']
 
 
 class BlogSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = BlogModel
-        fields = ['name', 'link', 'imageID', 'description']
+        fields = ['name', 'link', 'imageID', 'description', 'showBlog']
 
 
 class PersonalInfoSerializer(serializers.ModelSerializer):
