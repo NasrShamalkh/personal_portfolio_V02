@@ -1,0 +1,133 @@
+.aboutDiv {
+  display: flex;
+  font-size: 20px;
+  width: 85%;
+  margin: auto;
+}
+
+.aboutDiv > div > h1 {
+  width: 350px;
+  font-size: 70px;
+  color: #05386b;
+  font-weight: bold;
+  font-family: 'Stencil', Forte, 'MV Boli', 'Showcard Gothic';
+}
+.color2 {
+  color: #05386b;
+}
+button {
+  background-color: #05386b;
+  width: 130px;
+  height: 45px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  border: 1.5px solid white;
+}
+
+#contact1,
+#contact2 {
+  margin: 10px;
+}
+#contact2 > ul > li {
+  display: block;
+}
+.contactImage1 {
+  width: 45px;
+}
+.contactImage2 {
+  width: 49px;
+}
+#emailImage {
+  width: 45px;
+}
+#contact1 > ul > li {
+  display: flex;
+  margin-top: 5px;
+}
+
+#contact1 > ul > li > span {
+  line-height: 2;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+#contact2 > ul {
+  display: flex;
+}
+#lastDiv {
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+}
+#lastDiv > ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#hackerrankLogo {
+  width: 90px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+#freeCodeCampLogo {
+  width: 135px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  margin-top: 8px;
+}
+#codeWarsLogo {
+  width: 70px;
+  position: relative;
+  bottom: 10px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+#githubLogo {
+  width: 70px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+#linkedInLogo {
+  width: 90px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  position: relative;
+  top: 2px;
+}
+.img300 {
+  width: 300px;
+}
+#developerImageDiv {
+  margin: auto 0;
+}
+@media only screen and (max-width: 500px) {
+  .aboutDiv {
+    flex-direction: column;
+    text-align: center;
+  }
+  #contact2 {
+    position: relative;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 700px) and (min-width: 500px) {
+  .aboutDiv {
+    flex-direction: column;
+    text-align: center;
+  }
+  .aboutDiv > div > h1 {
+    text-align: center;
+  }
+  #contact2 {
+    position: relative;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+  }
+}
