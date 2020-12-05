@@ -14,7 +14,8 @@ db.sqlite3/
 
 # production
 /build
-
+staticfiles/
+/staticfiles
 # misc
 .DS_Store
 .env.local

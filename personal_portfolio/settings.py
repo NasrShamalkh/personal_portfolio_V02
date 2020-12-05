@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'i2$lc+&)6j&k072q)(in$%#g!xmxdm)5e$5j16gb0x+-37o+pt'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -63,7 +63,10 @@ ROOT_URLCONF = 'personal_portfolio.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'client', 'build')],
+        'DIRS': [
+                os.path.join(BASE_DIR, 'client', 'build'),
+                os.path.join(BASE_DIR, 'staticfiles')
+                ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -127,15 +130,17 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-django_heroku.settings(locals())
-STATIC_ROOT = os.path.join(BASE_DIR, 'client', 'build', 'static')
-STATICFILES_DIRS = []
-
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'client', 'build', 'media')
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'client', 'build/static'),
+]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-CSRF_TRUSTED_ORIGINS=['http://localhost:3000']
+django_heroku.settings(locals())
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,  'client', 'build', 'media')
+
+CSRF_TRUSTED_ORIGINS=['http://localhost:3000']
 
 
