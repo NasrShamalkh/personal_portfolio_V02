@@ -75,7 +75,7 @@ const About = function() {
               className='color2'
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.freecodecamp.org/fcc7b717385-d10b-49fd-a5d1-f7ca0f959a28'
+              href='https://www.freecodecamp.org/nasrshamalkh/'
             >
               FreeCodeCamp
             </a>
@@ -190,7 +190,7 @@ const About = function() {
           </li>
           <li>
             <a
-              href='https://www.freecodecamp.org/fcc7b717385-d10b-49fd-a5d1-f7ca0f959a28'
+              href='https://www.freecodecamp.org/nasrshamalkh/'
               target='_blank'
               rel='noopener noreferrer'
             >
