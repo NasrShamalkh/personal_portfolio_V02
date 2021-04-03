@@ -25,7 +25,7 @@ const About = function() {
         </div>
         <div>
           <p>
-            I am a full stack web developer based in Palestine. I am an
+            I am a Backend web developer based in Palestine. I am an
             intrinsically motivated person aiming to excel in life and the
             software industry along side with the people around me.
             <br />
