@@ -25,7 +25,7 @@ const Home = function() {
               <br /> SHAMALKH
             </span>
           </h1>
-          <h2 className='font3'>FULL STACK WEB DEVELOPER</h2>
+          <h2 className='font3'>BACKEND WEB DEVELOPER</h2>
         </div>
         <div id='right-div'>
           <img
@@ -84,7 +84,7 @@ const Home = function() {
               <br /> SHAMALKH
             </span>
           </h1>
-          <h2 className='font3'>FULL STACK WEB DEVELOPER</h2>
+          <h2 className='font3'>BACKEND WEB DEVELOPER</h2>
           <div id='contactImageDiv'>
             <a
               href={personalInfo.gitHubLink}
